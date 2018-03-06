@@ -1,0 +1,34 @@
+html, body {
+  font-family: 'Overpass', 'Liberation Sans', sans-serif;
+}
+
+pre, code {
+  font-family: 'Overpass Mono', 'Liberation Mono', monospace;
+}
+
+header {
+  background: transparent url(../img/taretto_banner.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+header > div.container {
+  position: relative;
+  top: 40%;
+  width: 100%;
+}
+
+footer p a {
+  color: #fff;
+}
+
+footer p a:hover {
+  color: #fff;
+}
