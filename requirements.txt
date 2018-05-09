@@ -1,0 +1,3 @@
+widgetastic.core
+widgetastic.patternfly
+navmazing
