@@ -26,7 +26,7 @@ Targetted tooling for testing, currently offering tools for Web UI navigation an
 if __name__ == "__main__":
     setup(
         name="taretto",
-        description="Targetted tooling for testing, currently offering tools for Web UI navigation and interaction.",
+        description="Targeted tooling for testing, currently offering tools for Web UI navigation and interaction.",
         license="GPL",
         url="https://github.com/RedHatQE/taretto",
         version="0.5",
