@@ -1,3 +1,4 @@
-widgetastic.core
-widgetastic.patternfly
-navmazing
+widgetastic.core~=0.21.2
+widgetastic.patternfly~=0.0.32
+navmazing~=1.1.4
+sentaku~=0.6.2

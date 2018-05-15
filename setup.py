@@ -29,7 +29,7 @@ if __name__ == "__main__":
         description="Targeted tooling for testing, currently offering tools for Web UI navigation and interaction.",
         license="GPL",
         url="https://github.com/RedHatQE/taretto",
-        version="0.5",
+        version="0.1",
         author="RedHatQE",
         author_email="psavage@redhat.com",
         maintainer="Pete Savage",
