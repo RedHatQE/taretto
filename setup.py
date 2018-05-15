@@ -29,7 +29,7 @@ if __name__ == "__main__":
         description="Targeted tooling for testing, currently offering tools for Web UI navigation and interaction.",
         license="GPL",
         url="https://github.com/RedHatQE/taretto",
-        version="0.1",
+        version="0.1.1",
         author="RedHatQE",
         author_email="psavage@redhat.com",
         maintainer="Pete Savage",
@@ -39,4 +39,10 @@ if __name__ == "__main__":
         packages=['taretto'],
         package_dir={"": "src"},
         classifiers=CLASSIFIERS,
+        install_requires=[
+            'widgetastic.core~=0.21.2',
+            'widgetastic.patternfly~=0.0.32',
+            'navmazing~=1.1.4',
+            'sentaku~=0.6.2',
+        ],
 )
