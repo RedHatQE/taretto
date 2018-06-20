@@ -26,7 +26,10 @@ Targetted tooling for testing, currently offering tools for Web UI navigation an
 if __name__ == "__main__":
     setup(
         name="taretto",
-        description="Targeted tooling for testing, currently offering tools for Web UI navigation and interaction.",
+        description=(
+            "Targeted tooling for testing, currently offering tools for Web UI navigation and"
+            " interaction."
+        ),
         license="GPL",
         url="https://github.com/RedHatQE/taretto",
         version="0.1.1",
@@ -34,15 +37,15 @@ if __name__ == "__main__":
         author_email="psavage@redhat.com",
         maintainer="Pete Savage",
         maintainer_email="psavage@redhat.com",
-        keywords=['Testing', 'Widget', 'Navigation'],
+        keywords=["Testing", "Widget", "Navigation"],
         long_description=LONG_DESC,
-        packages=['taretto'],
+        packages=["taretto"],
         package_dir={"": "src"},
         classifiers=CLASSIFIERS,
         install_requires=[
-            'widgetastic.core~=0.21.2',
-            'widgetastic.patternfly~=0.0.32',
-            'navmazing~=1.1.4',
-            'sentaku~=0.6.2',
+            "widgetastic.core~=0.21.2",
+            "widgetastic.patternfly~=0.0.32",
+            "navmazing~=1.1.4",
+            "sentaku~=0.6.2",
         ],
-)
+    )
