@@ -6,7 +6,7 @@ python:
 - pypy
 install:
 - pip install -U pip
-- pip install -U setuptools
+- pip install -U setuptools setuptools_scm
 - pip install -U tox tox-travis coveralls
 script:
 - tox
