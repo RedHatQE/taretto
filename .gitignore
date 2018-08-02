@@ -4,3 +4,7 @@ dist/
 build/
 __pycache__/
 .pytest_cache/
+.cache/
+.eggs/
+.tox/
+.coverage

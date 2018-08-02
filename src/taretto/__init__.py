@@ -9,5 +9,6 @@ __initpkg(__name__, {
 
         "View": "widgetastic.widget:View",
         "Browser": "widgetastic.browser.Browser",
+        "DefaultPlugin": "widgetastic.browser.DefaultPlugin"
     },
 })
