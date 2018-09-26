@@ -5,6 +5,7 @@ __initpkg(__name__, {
     "navigate": "navmazing",
     "ui": {
         "core": "widgetastic.widget",  # todo: html widget library here, limit to base
+        "bootstrap": "widgetastic_bootstrap",
         "patternfly": "widgetastic_patternfly",  # dito
 
         "View": "widgetastic.widget:View",
