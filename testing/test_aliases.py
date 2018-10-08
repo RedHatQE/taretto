@@ -5,7 +5,7 @@ import pytest
 
 @pytest.mark.parametrize(
     "mod",
-    [taretto.navigate, taretto.ui, taretto.ui.core, taretto.ui.patternfly],
+    [taretto.navigate, taretto.ui, taretto.ui.core, taretto.ui.patternfly, taretto.ui.patternfly4],
     ids=lambda mod: mod.__name__,
 )
 def test_module_aliases(mod):
@@ -19,6 +19,7 @@ def test_module_aliases(mod):
         (taretto.ui, "Browser"),
         (taretto.ui, "DefaultPlugin"),
         (taretto.ui.patternfly, "VerticalNavigation"),
+        (taretto.ui.patternfly4, "Navigation"),
     ],
     ids=lambda mod: mod.__name__,
 )
