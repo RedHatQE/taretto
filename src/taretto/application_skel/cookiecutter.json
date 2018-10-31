@@ -1,0 +1,6 @@
+{
+    "application_real_name": "Application Name",
+    "application_name": "{{ cookiecutter.application_real_name|lower|replace(' ', '_') }}",
+    "application_title": "{{ cookiecutter.application_real_name|replace(' ', '') }}",
+    "initialize_git": "y"
+}
