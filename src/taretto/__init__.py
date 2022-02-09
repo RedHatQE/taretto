@@ -6,6 +6,7 @@ __initpkg(__name__, {
     "ui": {
         "core": "widgetastic.widget",  # todo: html widget library here, limit to base
         "patternfly": "widgetastic_patternfly",  # dito
+        "patternfly4": "widgetastic_patternfly4",
 
         "View": "widgetastic.widget:View",
         "Browser": "widgetastic.browser:Browser",
