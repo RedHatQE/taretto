@@ -1,0 +1,12 @@
+.navbar-opaque {
+    background-color: rgba(52, 58, 64,0.5) !important;
+    border-bottom: 0px;
+    height: 70px;
+    transition: background-color .5s ease 0s, height .5s ease 0s;
+}
+
+.navbar-opaque.opaque {
+    background-color: #343a40 !important;
+    height: 50px;
+    transition: background-color .5s ease 0s, height .5s ease 0s;
+}
